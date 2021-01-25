@@ -1,0 +1,33 @@
+{
+  "name": "brunoviana/dotenv-manipulator",
+  "description": "A mirror of absolutehh/dotenv-manipulator | This package can manipulate the .env file of a laravel project on runtime.",
+  "keywords": ["dotenv", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tom Witkowski",
+      "email": "tom.witkowski@absolute.de",
+      "role": "Developer"
+    },
+    {
+      "name": "Hannes Daus",
+      "email": "hannes.daus@absolute.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "laravel/framework": "~5.0",
+    "laravel/lumen": "~5.0",
+    "illuminate/support": "~5.0",
+    "illuminate/console": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Absolute\\DotEnvManipulator\\": "src/DotEnvManipulator"
+    }
+  },
+  "prefer-stable": true
+}
